@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #3f3f5a;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.profile {
+    margin-top: 50px;
+}
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #8a2be2;
+}
+.profile h1 {
+    margin-top: 40px;
+}
+.content {
+    text-align: center;
+    align-items: center;
+}
+.tabcen {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.content table, th, td {
+
+    padding: 10px;
+    width:  50%;
+    border-collapse: separate;
+  }
+.home {
+    position: relative;
+    width: 72%;
+    justify-content: space-between;
+    height: 80vh;
+    background:url(BackG.png) fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px 14% 0;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.container_all {
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background-color: #1a1a2e;
+            font-family: Arial, sans-serif;
+            color: white;
+}
+.container_all .container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.text {
+    max-width: 300px;
+}
+.contact {
+    font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            margin: 0;
+}
+.contact .contact-card {
+    background-color: #65698a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+.contact-card h2 {
+    margin-bottom: 10px;
+}
+.contact-card p {
+    margin: 5px 0;
+}
+.contact-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-card a:hover {
+    text-decoration: underline;
+}
